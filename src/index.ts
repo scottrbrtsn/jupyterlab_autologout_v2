@@ -17,7 +17,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     var config = require('./logout_conf.json');
     var timeoutInMiliseconds = config.logout_time * 1000; // Convert in miliseconds
 
-    var timeoutId;
+    var timeoutId : number;
     var lastTrigeredTime = 0;
 
     function startTimer() { 
