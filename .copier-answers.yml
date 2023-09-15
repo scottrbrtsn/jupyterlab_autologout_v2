@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.0
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: scott.peter.robertson@gmail.com
+author_name: Scott Robertson
+has_binder: false
+has_settings: false
+kind: frontend
+labextension_name: jupyterlab_autologout_v2
+project_short_description: A JupyterLab extension to autologout users after some time.
+python_name: jupyterlab_autologout_v2
+repository: https://github.com/scottrbrtsn/jupyterlab_autologout_v2.git
+test: false
+
