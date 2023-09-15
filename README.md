@@ -3,6 +3,9 @@
 A JupyterLab extension to autologout users after some time.  WIP
 
 - We needed something today, but used [CNES/autologoout](https://github.com/CNES/autologout-labextension) as the starting point.
+- Solves this [Issue](https://github.com/CNES/autologout-labextension/issues/3)
+- So we could `pip install` in our CI. 
+- Some issue with our environment broke the build for this extension after we upgraded `jupyter-lab>3.5.2`
 
 ## Requirements
 
