@@ -1,7 +1,8 @@
 # jupyterlab_autologout_v2
 
-[![Github Actions Status](https://github.com/scottrbrtsn/jupyterlab_autologout_v2.git/workflows/Build/badge.svg)](https://github.com/scottrbrtsn/jupyterlab_autologout_v2.git/actions/workflows/build.yml)
-A JupyterLab extension to autologout users after some time.
+A JupyterLab extension to autologout users after some time.  WIP
+
+- We needed something today, but used [CNES/autologoout](https://github.com/CNES/autologout-labextension) as the starting point.
 
 ## Requirements
 
@@ -12,7 +13,13 @@ A JupyterLab extension to autologout users after some time.
 To install the extension, execute:
 
 ```bash
-pip install jupyterlab_autologout_v2
+pip install jupyterlab_autologout_v2-0.1.0.tar.gz
+```
+
+OR
+
+```bash
+pip install . 
 ```
 
 ## Uninstall
